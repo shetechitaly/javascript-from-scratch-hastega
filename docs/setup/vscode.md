@@ -35,3 +35,42 @@ VSCode è un editor di codice sorgente sviluppato da Microsoft che supporta una 
 Ora puoi iniziare ad utilizzare Visual Studio Code.
 
 ![VS Code](./img/vscode-installed.png)
+
+## Per Linux (Debian/Ubuntu-based)
+
+**Step 1:** Apri il terminale e importa la chiave GPG di Microsoft.
+
+```bash
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+```
+
+**Step 2:** Aggiungi il repository di Visual Studio Code.
+
+```bash
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+```
+
+**Step 3:** Aggiorna la lista dei pacchetti.
+
+```bash
+sudo apt update
+```
+
+**Step 4:** Installa Visual Studio Code.
+
+```bash
+sudo apt install code
+```
+
+**Step 5:** Una volta completata l'installazione, puoi aprire Visual Studio Code dal menu delle applicazioni o digitando:
+
+```bash
+code
+```
+
+**Ben fatto! 🎉**
+
+Ora puoi iniziare ad utilizzare Visual Studio Code anche su Linux.
+
+![VS Code Linux](./img/vscode-linux.png)
