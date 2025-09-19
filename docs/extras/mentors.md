@@ -14,7 +14,3 @@ Cliccando sull'immagine di ogni mentor sarà possibile accedere al relativo prof
 ## Paolo Micheletti (Hastega)
 ![Paolo Micheletti](./img/mentors/paolo-micheletti.png "Paolo Micheletti")  
 <a href="https://www.linkedin.com/in/pablo1255/">Linkedin</a>
-
-## Lorenzo Neri (Hastega)
-![Lorenzo Neri](./img/mentors/lorenzo-neri.png "Lorenzo Neri")   
-<a href="https://www.linkedin.com/in/lorenzo-neri-dev/">Linkedin</a>
